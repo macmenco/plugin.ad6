@@ -33,7 +33,7 @@ VIDEO_STREAMS = (
         'title': 'AD6 Live',
         'logo': 'ad6_small.jpg',
         'fanart': 'fanart.jpg',
-        'url_id': ('https://d3slqp9xhts6qb.cloudfront.net/omroepbrabantTv/index.m3u8'),
+        'url_id': ('https://d3slqp9xhts6qb.cloudfront.net/omroepbrabantTvExtra1/index.m3u8'),
     },
 )
 
