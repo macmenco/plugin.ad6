@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.ad6" name="Alpe d'HuZes" version="0.1.0" provider-name="Menco Bolt">
+<addon id="plugin.video.ad6" name="Alpe d'HuZes" version="0.1.0" provider-name="Menco Bolt">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.routing" version="0.2.1"/>
@@ -19,7 +19,7 @@
         <forum></forum>
         <website>https://www.opgevenisgeenoptie.nl</website>
         <email>menco@bolt.frl</email>
-        <source>https://github.com/macmenco/plugin.ad6</source>
+        <source>https://github.com/macmenco/plugin.video.ad6</source>
         <news></news>
         <disclaimer></disclaimer>
         <assets>
