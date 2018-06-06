@@ -93,10 +93,7 @@ def build_dir(streams, prefix=None):
             url = prefix % stream['url_id']
             folder = True
         li = ListItem(label=stream['title'])
-        li.setIconImage(get_logo(stream['logo']))
-        # li.setArt({'thumb': 'thumbnail.jpg', 'poster': 'poster.jpg' 'fanart': 'fanart.jpg'})
-        # li.setArt({'fanart': ADDON.getAddonInfo('fanart')})
-        li.setArt({'fanart': get_logo(stream['fanart'])})
+        li.setArt({'thumb': get_logo(stream['logo']), 'icon': get_logo(stream['logo']), 'fanart': get_logo(stream['fanart'])})
         addDirectoryItem(
             plugin.handle,
             url,
